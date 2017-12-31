@@ -1,0 +1,17 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  /* make this property inheritable */
+  box-sizing: inherit;
+}
+
+html {
+  /* root font-size value for rem */
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+}
